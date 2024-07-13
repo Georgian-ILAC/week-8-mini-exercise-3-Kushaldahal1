@@ -16,7 +16,7 @@ public class Person {
         return lastName;
     }
 
-    private double getHeight(){
+    public double getHeight(){
         return height;
     }
 
@@ -28,7 +28,7 @@ public class Person {
         this.lastName = lastName;
     }
 
-    private void setHeight(double height){
+    public void setHeight(double height){
         this.height=height;
     }
 
